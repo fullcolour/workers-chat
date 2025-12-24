@@ -21,7 +21,7 @@ body { font-family: sans-serif; padding: 20px; }
 const log = document.getElementById("log");
 
 // 重要：这里改成你的 Workers 域名
-const ws = new WebSocket("wss://chat-api.wangtaiyang.com/room/global");
+const ws = new WebSocket("wss://lingering-violet-598c.sunflyer-9bb.workers.dev/room/global");
 
 ws.onmessage = evt => {
   const div = document.createElement("div");
